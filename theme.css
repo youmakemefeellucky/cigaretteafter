@@ -13,6 +13,8 @@
     font-style: italic;
     font-weight: bold;
     font-size: 6em;
+
+    cursor: url('dot.png'), auto;
   }
 
   .text {
