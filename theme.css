@@ -1,0 +1,23 @@
+
+  body {
+    background-color: #084A73;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    perspective: 800px;
+  }
+
+  .card {
+    width: 600px;
+    height: 600px;
+  }
+
+  img {
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
