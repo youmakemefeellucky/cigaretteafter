@@ -1,6 +1,6 @@
 
   body {
-    background-color: #084A73;
+    background-color: #FFBA00;
     min-height: 100vh;
 
     display: flex;
@@ -8,11 +8,20 @@
     align-items: center;
 
     perspective: 800px;
+
+    font-family: "Roboto" sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 6em;
   }
 
-  .card {
-    width: 600px;
-    height: 600px;
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    white-space: nowrap;
   }
 
   img {
